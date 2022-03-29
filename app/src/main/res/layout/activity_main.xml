@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="当前动作"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="ACTIVITY作为监听器"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="内部类作为监听器"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="匿名内部类作为监听器"/>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="LAMBDA表达式作为监听器"/>
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="外部类作为监听器"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickbtn6"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="监听器绑定到标签"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickbtn7"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="显示系统信息"/>
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickbtn8"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="显示进度条"/>
+
+
+
+</LinearLayout>
